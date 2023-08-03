@@ -21,7 +21,7 @@ body {
     height: 150px;
     margin: 0 auto 20px;
     background-color: #f7d48a;
-    border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+   /* border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%; */ 
     animation: rotate 5s linear infinite;
 }
 
