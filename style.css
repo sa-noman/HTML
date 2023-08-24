@@ -1,0 +1,90 @@
+/*Reset and default setting star heret*/
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*variable declare start*/
+:root{
+   --primary-color: green;
+   --secondory-color: rgb(7, 71, 7);
+   padding: 0.5rem;
+   transition: all 0.3s;
+}
+
+/*variable declare end*/
+html{
+scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.flex-space-arround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Reset and default setting end here*/
+
+/* upper Navbar startet here*/
+nav{
+    font-size: 1.2rem;
+    
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.nav-upper{
+    min-width: 10vh;
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    
+}
+.nav-list:hover{
+text-decoration: underline overline;
+color: black;
+}
+.nav_link:hover{
+    color: white;
+}
+.profile-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    border: white solid 1.2px;
+    overflow: hidden;
+    filter: saturate(0);
+}
+.profile-icon:hover{
+    filter: none;
+    border:1px solid rgba(250, 207, 250, 0.7);
+    border-radius: 50%;
+    
+}
+/*upper Navbar ended here*/
+
+/*lower Navbar startet here*/
+.nav-lower{
+    
+    background-color: var(--secondory-color );
+    min-height: 5rem;
+}
+.nav-lower .nav_link{
+    color: white;
+    text-decoration: none;
+    size: 50px;
+    background-color: rgb(170, 111, 175);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.nav-list-lower .nav_link:hover{
+   text-decoration: none;
+   background-color: rgb(194, 84, 204);
+}
+/*lower Navbar ended here*/
